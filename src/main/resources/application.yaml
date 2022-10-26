@@ -1,0 +1,18 @@
+# Make sure we use Gson
+logging:
+   config: classpath:log4j2.xml
+
+spring:
+   http:
+      converters:
+         preferred-json-mapper: gson
+   datasource:
+      url: jdbc:sqlite:db/simplefolks.sqlite
+      username: db
+      password: 
+      driver-class-name: org.sqlite.JDBC
+
+mybatis:
+   config-location: classpath:mybatis/mybatis-config.xml
+   mapper-locations: classpath:mybatis/mapper/*.xml
+   type-aliases-package: org.cheesypoof.restdemo.model
