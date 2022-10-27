@@ -15,4 +15,4 @@ spring:
 mybatis:
    config-location: classpath:mybatis/mybatis-config.xml
    mapper-locations: classpath:mybatis/mapper/*.xml
-   type-aliases-package: org.cheesypoof.restdemo.model
+   type-aliases-package: org.poofycheese.restdemo.model

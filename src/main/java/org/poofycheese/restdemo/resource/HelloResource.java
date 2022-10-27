@@ -1,4 +1,4 @@
-package org.cheesypoof.restdemo.resource;
+package org.poofycheese.restdemo.resource;
 
 
 import javax.ws.rs.GET;
@@ -11,16 +11,13 @@ import javax.ws.rs.core.Response;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.cheesypoof.restdemo.mapper.PersonMapper;
+import org.poofycheese.restdemo.mapper.PersonMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Path("/hello")
 public class HelloResource {
 
 	private static final Logger log=  LogManager.getLogger(HelloResource.class);
-	
-	@Autowired
-	private PersonMapper personMapper;
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)

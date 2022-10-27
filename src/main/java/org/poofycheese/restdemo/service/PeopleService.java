@@ -1,9 +1,9 @@
-package org.cheesypoof.restdemo.service;
+package org.poofycheese.restdemo.service;
 
 import java.util.List;
 
-import org.cheesypoof.restdemo.mapper.PersonMapper;
-import org.cheesypoof.restdemo.model.Person;
+import org.poofycheese.restdemo.mapper.PersonMapper;
+import org.poofycheese.restdemo.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

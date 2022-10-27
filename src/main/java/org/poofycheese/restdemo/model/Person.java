@@ -1,4 +1,4 @@
-package org.cheesypoof.restdemo.model;
+package org.poofycheese.restdemo.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

@@ -1,9 +1,9 @@
-package org.cheesypoof.restdemo.mapper;
+package org.poofycheese.restdemo.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.cheesypoof.restdemo.model.Person;
+import org.poofycheese.restdemo.model.Person;
 
 @Mapper
 public interface PersonMapper {

@@ -1,4 +1,4 @@
-package org.cheesypoof.restdemo;
+package org.poofycheese.restdemo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(RestdemoApplication.class);
+		return application.sources(RestDemoApplication.class);
 	}
 
 }
