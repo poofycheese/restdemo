@@ -14,9 +14,11 @@ I'm not a fan of the "It just works" mentality.
  -Setup Log4j2 instead of the default
  
  -Integration tests setup
+ 
+ -remove dependency on spring boot parent pom.  
 
 Build and start on localhost:8080/people  
 
 ```
-mvn clean spring-boot:run
+mvn clean verify spring-boot:run
 ```

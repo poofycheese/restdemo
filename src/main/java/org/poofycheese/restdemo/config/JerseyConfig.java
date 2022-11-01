@@ -12,5 +12,6 @@ public class JerseyConfig extends ResourceConfig {
 	public JerseyConfig() {
 		
 		packages("org.poofycheese.restdemo.resource");
+		property("jersey.config.server.wadl.disableWadl", "true");
 	}
 }
